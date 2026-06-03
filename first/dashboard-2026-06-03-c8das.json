@@ -49,8 +49,8 @@
                       "kind": "DataQuery",
                       "spec": {
                         "editorMode": "builder",
-                        "expr": "rzut_kostka",
-                        "legendFormat": "{{kostka}}",
+                        "expr": "rzut_kostka{kostka=\"$kostka\"}",
+                        "legendFormat": "{{pod}}",
                         "range": true
                       },
                       "version": "v0"
@@ -142,7 +142,20 @@
         ]
       }
     },
-    "links": [],
+    "links": [
+      {
+        "asDropdown": false,
+        "icon": "external link",
+        "includeVars": false,
+        "keepTime": false,
+        "tags": [],
+        "targetBlank": true,
+        "title": "Source (GitHub)",
+        "tooltip": "View source file in repository",
+        "type": "link",
+        "url": "https://github.com/lvajxi03/dashboards/blob/main/first/dashboard-2026-06-03-c8das.json"
+      }
+    ],
     "liveNow": false,
     "preferences": {
       "layout": {
@@ -181,8 +194,8 @@
         "spec": {
           "allowCustomValue": true,
           "current": {
-            "text": "dwunastoscienna",
-            "value": "dwunastoscienna"
+            "text": "szescienna",
+            "value": "szescienna"
           },
           "definition": "label_values(rzut_kostka,kostka)",
           "hide": "dontHide",
