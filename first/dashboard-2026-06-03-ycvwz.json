@@ -214,7 +214,7 @@
       "timezone": "browser",
       "to": "now"
     },
-    "title": "New dashboard",
+    "title": "First Things First",
     "variables": [
       {
         "kind": "QueryVariable",
