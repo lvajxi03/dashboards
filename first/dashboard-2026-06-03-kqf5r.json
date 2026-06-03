@@ -49,8 +49,8 @@
                       "kind": "DataQuery",
                       "spec": {
                         "editorMode": "builder",
-                        "expr": "kurs_dolara",
-                        "legendFormat": "__auto",
+                        "expr": "kurs_dolara{bank=\"$bank\"}",
+                        "legendFormat": "{{pod}}",
                         "range": true
                       },
                       "version": "v0"
@@ -160,8 +160,8 @@
                 "kind": "ElementReference",
                 "name": "panel-1"
               },
-              "height": 8,
-              "width": 12,
+              "height": 24,
+              "width": 24,
               "x": 0,
               "y": 0
             }
@@ -221,8 +221,8 @@
         "spec": {
           "allowCustomValue": true,
           "current": {
-            "text": "BNPParibas",
-            "value": "BNPParibas"
+            "text": "PKOBP",
+            "value": "PKOBP"
           },
           "definition": "label_values(kurs_dolara,bank)",
           "hide": "dontHide",
