@@ -160,7 +160,7 @@
       "timezone": "browser",
       "to": "now"
     },
-    "title": "New dashboard",
+    "title": "All logs",
     "variables": []
   }
 }
