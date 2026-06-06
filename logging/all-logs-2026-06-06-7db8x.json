@@ -167,8 +167,8 @@
         "spec": {
           "allowCustomValue": true,
           "current": {
-            "text": "",
-            "value": ""
+            "text": "jenkins",
+            "value": "jenkins"
           },
           "definition": "",
           "hide": "dontHide",
